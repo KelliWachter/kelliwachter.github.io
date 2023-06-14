@@ -1,1 +1,378 @@
 
+
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&family=Montserrat:wght@100;400;700;900&family=PT+Mono&family=Pacifico&display=swap");
+
+
+body {
+  background-color: #dca3d2;
+  background: url("https://cdn.glitch.me/528e55ea-a018-4183-8ad7-18b9ce959ccf%2Fpawel-czerwinski-2dyR13FNg2I-unsplash.jpg?v=1635972590661")
+    no-repeat center center fixed;
+  background-position: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.fullwrapper {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  min-width: 240px;
+  max-width: 1400px;
+  margin: 1.5rem auto;
+  padding: 0.5rem;
+  border-radius: 10px;
+  gap: 2.5rem;
+  background-color: rgba(151, 60, 156, 0.25);
+  backdrop-filter: blur(4px);
+  box-shadow: inset 20px 20px 60px rgba(246, 170, 182, 0.2),
+    inset -20px -20px 60px rgba(246, 170, 182, 0.2);
+  outline: 1px dotted white;
+  outline-offset: 0.5rem;
+  border: 9px double rgba(234, 189, 137, 0.75);
+}
+
+.firstcontainer {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.secondcontainer {
+  background-color: #e2d4d2;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #973c9c;
+  border-radius: 6px;
+  line-height: 1.5em;
+  box-shadow: 0 2px 2px #973c9c;
+  margin-bottom: 2rem;
+}
+.brightwhite {
+  max-width: 85%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.thirdcontainer {
+  background-color: #ffffff;
+  width: 90%;
+  margin: auto;
+  filter: drop-shadow(0px 0px 2px #ffffff);
+  border-radius: 0.2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0rem;
+}
+
+.quickrundown {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 2rem auto;
+  align-items: stretch;
+  justify-content: center;
+  align-content: space-between;
+  gap: 1rem 1.5rem;
+  /*   border:1px solid red; */
+}
+
+.keyskills,
+.ProgramsandApps {
+  flex-shrink: 1;
+  flex-grow: 1;
+  /*   border:1px solid green; */
+  max-width: 400px;
+}
+
+.quickrundown div {
+  align-self: stretch;
+  /*   max-width: 400px; */
+}
+
+li {
+  color: #973c9c;
+  margin: 0 0 1rem 15px;
+  padding-top: 0.5em;
+}
+
+ul,
+li,
+li b {
+  font-size: 0.9rem;
+}
+/* Makes the font bold in the Programs and apps list */
+.target {
+  font-weight: bold;
+}
+
+.target li {
+  list-style-type: none;
+}
+
+/* Makes the font weight not bold in second level bullet point on the Programs and Apps List */
+ul {
+  margin: 20px;
+}
+li > ul {
+  font-weight: normal;
+}
+
+div li {
+  list-style-type: "●";
+  padding-inline-start: 1ch;
+}
+li > ul {
+  margin: 0 0 0 1.5rem;
+}
+li > ul li::marker {
+  content: "⚬";
+}
+
+li::marker {
+  color: hotpink;
+}
+
+.project {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 1rem;
+  border: 3px solid #d3cec2;
+  border-radius: 4px;
+  box-shadow: 0px 2px 3px #f7f6f1;
+  background-color: #f7f6f1;
+}
+
+.project:last-child {
+  margin-bottom: 1rem;
+}
+
+iframe {
+  display: block;
+  margin: 1rem auto;
+  max-width: 97%;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px #8fdbce;
+  border: 4px solid #973c9c;
+}
+
+/* --------------------------------------Fonts--------------------------------------*/
+
+.button {
+  /*   background:white; */
+  display: inline-block;
+  margin: 0.4rem auto;
+  border-radius: 5px;
+  max-width: 90%;
+}
+
+.button a {
+  /*   border:1px dotted #973c9c; */
+  /*   outline:2px dotted white; */
+  /*    outline-offset: 0.01rem; */
+  /*   padding:30px; */
+  text-shadow: -1px -1px 0 #f2f0e6, 1px -1px 0 #f2f0e6, -1px 1px 0 #f2f0e6,
+    1px 1px 0 #f2f0e6;
+}
+
+.button a:hover {
+  color: #97a4d6;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-style: italic;
+  color: #f2c987;
+  text-shadow: -1px -1px 0 #973c9c, 1px -1px 0 #973c9c, -1px 1px 0 #973c9c,
+    1px 1px 0 #973c9c;
+  filter: drop-shadow(01px 02px 1px #ae5caa);
+  font-size: 10vmin;
+}
+
+h2 {
+  font-family: "Pacifico", cursive;
+  font-style: italic;
+  color: #973c9c;
+  text-align: center;
+  font-size: 5vmin;
+  font-weight: 900;
+  filter: drop-shadow(1px 1px 1px #8fdbce);
+  margin: 1rem 0rem 0.5rem 0rem;
+}
+
+.secondcontainer p {
+  font-family: "PT Mono", monospace;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #973c9c;
+  background-color: #f7f6f1;
+  border: 1px solid #d3cec2;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  margin: 0.1rem 0.1rem;
+  display: block;
+  text-align: center;
+}
+.project > h3 {
+  background-color: white;
+  margin: 0.5rem 0.5rem;
+}
+h4 {
+  font-family: "Pacifico", cursive;
+  color: #39183b;
+  font-weight: 500;
+  padding: 0.2 0 0.4rem 0.2rem;
+  margin-left: 2rem;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: #973c9c;
+  font-weight: 400;
+  margin: 1rem 2rem;
+  padding: 0 0.2rem;
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+ul,
+li {
+  font-family: "Montserrat", sans-serif;
+}
+
+b {
+  font-weight: 700;
+}
+
+hr {
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(151, 60, 156, 1),
+    rgba(0, 0, 0, 0)
+  );
+
+  width: 70%;
+  margin: 4px auto;
+  border-radius: 2rem;
+}
+
+/* ---------------------------------Link Style-------------------------------- */
+
+a {
+  cursor: pointer;
+  text-decoration: wavy #8fdbce underline;
+  text-underline-offset: 0.08rem;
+  font-family: "Montserrat", sans-serif;
+  color: hotpink;
+  font-weight: 500;
+  font-size: 0.8rem;
+  border-radius: 3px;
+}
+
+/* unvisited link */
+a:link {
+  color: #f73d8e;
+  padding: 0 3px 0 3px;
+}
+
+/* visited link */
+a:visited {
+  background-color: #006653;
+  color: #ad4e65;
+  text-decoration: #c1c9c7;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+  text-decoration: wavy underline #973c9c;
+  background-color: #75c2c6;
+}
+
+/* selected link */
+a:active {
+  text-decoration: wavy hotpink underline;
+  background-color: #973c9c;
+  color: white;
+}
+
+/* ----------------------------This is about the Scroll Bar---------------------------*/
+
+html {
+  --scrollbarBG: #f7f6f1;
+  --thumbBG: #973c9c;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+/* ----------------------------Alterations for Small screens---------------------------- */
+
+@media screen and (max-width: 750px) {
+  .fullwrapper {
+    max-width: 100%;
+    gap: 0.5rem;
+  }
+
+  .thirdcontainer {
+    border-radius: 1vw;
+    width: 100%;
+    margin-bottom: 0.2em;
+  }
+
+  .brightwhite {
+    max-width: 100%;
+  }
+
+  .brightwhite p,
+  h4 {
+    margin: 0.2rem 0.4rem;
+  }
+
+  .secondcontainer p {
+    font-size: 0.8rem;
+    margin: 0;
+    padding-bottom: 0;
+  }
+
+  .quickrundown div {
+    align-self: stretch;
+    flex-grow: 1;
+  }
+
+  .quickrundown {
+    flex-flow: row wrap;
+    width: 95%;
+    align-items: stretch;
+  }
+
+  .project {
+    margin-bottom: 0.6rem;
+  }
